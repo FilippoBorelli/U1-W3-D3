@@ -1,0 +1,53 @@
+body{
+    font-size: 1.2em;
+    height: 100%;
+    background-image: linear-gradient(to top, #5F5449, #9B6A6C, #B09398, #CEDFD9, #EBFCFB);
+}
+#header-form{
+    text-align: center;
+    margin: 1em;
+    margin-top: 40px;
+}
+#todolist{
+    height: 50px;
+    width: 250px;
+    text-align: left;
+}
+label{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+button{
+    position: relative;
+    left: 200px;
+    bottom: 45px;
+}
+main{
+    border: 3px solid black;
+    width: 40%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10px;
+}
+#list{
+    width: 100%;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right, blue, purple, violet);
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.ciao{
+    text-decoration: line-through;
+}
